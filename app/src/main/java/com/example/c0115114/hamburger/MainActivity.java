@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity
             public void draw(Canvas canvas) {
                 Paint paint = new Paint();
                 paint.setStyle(Paint.Style.FILL); // 四角の中全塗り
-                paint.setColor(Color.WHITE);
+                paint.setColor(Color.WHITE); // 白で塗る
 
                 // 丸角の四角を描画
                 // getIntrinsicWidth でハンバーガーの横幅が取れます
